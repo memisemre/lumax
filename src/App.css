@@ -1,9 +1,14 @@
+/* * Css File Import */
 @import "./Assets/Css/Reset.css";
 @import "./Assets/Css/Colors.css";
 @import "./Assets/Css/Logo.css";
 @import "./Assets/Css/Header.css";
+@import "./Assets/Css/Homepage.css";
 
+/* *Oswald Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+/* *Custom Css */
 body{
   font-family: 'Oswald', sans-serif;
   min-height: 100vh;

@@ -1,0 +1,57 @@
+.homepage-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.homepage-container .content{
+  width: 1170px;
+  height: 70vh;
+  display: flex;
+}
+.homepage-container .content .left-side,
+.homepage-container .content .right-side{
+  width: 585px;
+  height: 70vh;
+}
+.homepage-container .content .left-side,
+.homepage-container .content .right-side{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 40px;
+}
+.homepage-container .content .left-side div{
+  padding: 8px 16px;
+  margin-top: 16px;
+  border-radius: 8px;
+}
+.homepage-container .content .left-side div:nth-child(1),
+.homepage-container .content .left-side div:nth-child(3){
+  background-color: var(--green--bg--dark); 
+  margin-left: -64px;
+}
+.homepage-container .content .left-side .desc{
+  margin-top: 16px;
+  font-size: 32px;
+}
+.homepage-container .content .left-side div:nth-child(2){
+  margin-left: 64px;
+  background-color: var(--green--bg--light);
+}
+.homepage-container .content .right-side div:nth-child(1){
+  color: var(--html--logo);
+}
+.homepage-container .content .right-side div:nth-child(2){
+  color: var(--css--logo);
+}
+.homepage-container .content .right-side div:nth-child(3){
+  color: var(--js--logo);
+}
+.homepage-container .content .right-side div:nth-child(4){
+  color: var(--react--logo);
+}
+.homepage-container .content .right-side div:nth-child(5){
+  color: var(--git--logo);
+}

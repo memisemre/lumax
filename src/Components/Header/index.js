@@ -1,15 +1,12 @@
-export default function Header(props) {
+export default function Header() {
   return (
-    <div className="header-container">
-      <header id="header">
-        <a href="#" target="_blank" className="logo">Lumax</a>
-        <button className="header-login-btn" onClick={handleClick}>
-          <i className="fa-regular fa-user"></i>Login
-        </button>
-      </header>
-    </div>
+      <div className="header-container">
+        <header id="header">
+          <a href="#" target="_blank" className="logo">Lumax</a>
+          <a href="/login" className="header-login-btn">
+            <i className="fa-regular fa-user"></i>Login
+          </a>
+        </header>
+      </div>
   )
-}
-function handleClick(){
-  console.log("osman")
 }

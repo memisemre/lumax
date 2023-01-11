@@ -6,15 +6,15 @@ function Header(props) {
         <Logo />
         <nav>
           <a>Courses</a>
-          <a>Challenges
+          <div className="challenges-btn">Challenges
             <i className="fa-solid fa-chevron-down"></i>
-          </a>
+          </div>
           <a
             href="/login"
             className="login-btn"
           >
             Login
-            <i class="fa-solid fa-right-to-bracket"></i>
+            <i className="fa-solid fa-right-to-bracket"></i>
           </a>
         </nav>
       </header>

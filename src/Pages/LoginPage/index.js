@@ -25,7 +25,7 @@ function LoginPage() {
           />
 
           <button
-            onClick={() => console.log(email, password)}
+            onClick={() => { }}
           >
             Sign In
             <i className="fa-solid fa-chevron-right"></i>

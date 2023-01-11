@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+a,
+a:link,
+a:active,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: var(--text--black);
+  cursor: pointer;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+:focus {
+  outline: none;
+}
+input {
+  width: 256px;
+  height: 32px;
+  border: 2px solid transparent;
+  margin-top: 32px;
+  border-bottom-color: gray;
+  background-color: transparent;
+  padding: 6px;
+  transition: 250ms all ease-in-out;
+}
+input:focus,
+input:hover {
+  border-bottom-color: var(--blue);
+  color: var(--blue);
+}

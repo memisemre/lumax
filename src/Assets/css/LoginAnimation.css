@@ -1,0 +1,43 @@
+.login-animation-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.login-animation-container .content{
+  width: 80px;
+  height: 80px;
+  display: grid;
+  grid-template-columns: repeat(2,50%);
+  row-gap: 16px;
+  column-gap: 16px;
+  animation: loadingAnimation 2s linear infinite;
+}
+.login-animation-container .content .circle{
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background-color: var(--blue);
+}
+@keyframes loadingAnimation{
+  0%{
+    transform: rotate(0) scale(1);
+  }
+  25%{
+    transform: rotate(90deg) scale(1.125);
+  }
+  50%{
+    transform: rotate(180deg) scale(1.25);
+  }
+  75%{
+    transform: rotate(270deg) scale(1.125);
+  }
+  100%{
+    transform: rotate(360deg) scale(1);
+  }
+}
+.login-animation-container .logo-container{
+  position: absolute;
+  bottom: 32px;
+}

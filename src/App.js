@@ -1,18 +1,18 @@
-import './App.css';
-import Homepage from './Components/Homepage';
-import { Routes, Route } from "react-router-dom";
-import LoginPage from './Components/LoginPage';
-import SignUpPage from './Components/SignupPage';
+import { Route, Routes } from 'react-router-dom';
+import './App.css'
+import LoginAnimation from './Components/LoginAnimation';
+import Homepage from './Pages/Homepage';
+import LoginPage from './Pages/LoginPage';
+import SignUp from './Pages/SignupPage';
 function App() {
   return (
-    <div className="App">
+    <div>
       <Routes>
-        <Route path='/' element={<Homepage />} />
+        <Route path='/' element={<LoginAnimation />} />
         <Route path='/login' element={<LoginPage />} />
-        <Route path='/signup' element={<SignUpPage />} />
+        <Route path='/signup' element={<SignUp />} />
       </Routes>
     </div>
-  );
+  )
 }
-
-export default App;
+export default App; 

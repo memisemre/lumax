@@ -1,30 +1,19 @@
-/* * Css File Import */
-@import "./Assets/Css/Reset.css";
-@import "./Assets/Css/Colors.css";
-@import "./Assets/Css/Logo.css";
-@import "./Assets/Css/LoginAnimation.css";
-@import "./Assets/Css/Header.css";
-@import "./Assets/Css/Homepage.css";
-@import "./Assets/Css/LoginPage.css";
+@import "./Assets/css/Reset.css";
+@import "./Assets/css/Colors.css";
+@import "./Assets/css/Logo.css";
+@import "./Assets/css/Header.css";
+@import "./Assets/css/LoginPage.css";
+@import "./Assets/css/SignupPage.css";
+@import "./Assets/css/LoginAnimation.css";
 
-/* *Oswald Font Import */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
-
-/* *Custom Css */
-body{
-  font-family: 'Oswald', sans-serif;
-  min-height: 100vh;
-  width: 100%;
-  background-color: var(--body--bg);
+body {
+  background-color: var(--black);
 }
-#root{
+#root {
   width: 100%;
   min-height: 100vh;
 }
-.app{
+.app {
   width: 100%;
   min-height: 100vh;
-}
-.container{
-  width: 1170px;
 }

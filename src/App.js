@@ -5,10 +5,11 @@ import LoginAnimation from './Components/LoginAnimation';
 import Homepage from './Pages/Homepage';
 import LoginPage from './Pages/LoginPage';
 import SignUp from './Pages/SignupPage';
+
 function App() {
   const [loaded, setLoaded] = useState(false);
 
-  setTimeout(() => { setLoaded(true) }, 5000);
+  setTimeout(() => { setLoaded(true) }, 2000);
 
   if (loaded) {
     return (
@@ -21,7 +22,7 @@ function App() {
       </div>
     )
   }
-  
+
   else return <LoginAnimation />
 
 }

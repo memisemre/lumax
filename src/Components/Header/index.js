@@ -11,6 +11,7 @@ function Header(props) {
           </a>
           <a
             href="/login"
+            className="login-btn"
           >
             Login
             <i class="fa-solid fa-right-to-bracket"></i>

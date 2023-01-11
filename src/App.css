@@ -5,7 +5,7 @@
 @import "./Assets/css/LoginPage.css";
 @import "./Assets/css/SignupPage.css";
 @import "./Assets/css/LoginAnimation.css";
-
+@import "./Assets/css/NotFoundPage.css";
 body {
   background-color: var(--black);
 }

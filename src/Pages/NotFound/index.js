@@ -5,7 +5,6 @@ function NotFound() {
     <div className="notfound-page-container">
       <div className="content">
         <div className="left-side">
-
           <Logo />
           <h1> 404 </h1>
           <h3> Page Not Found !</h3>

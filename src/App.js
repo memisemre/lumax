@@ -6,8 +6,8 @@ import NotFound from './Pages/NotFound';
 import Homepage from './Pages/Homepage';
 import LoginPage from './Pages/LoginPage';
 import SignUp from './Pages/SignupPage';
-
 function App() {
+
   const [loaded, setLoaded] = useState(false);
 
   setTimeout(() => { setLoaded(true) }, 2000);
